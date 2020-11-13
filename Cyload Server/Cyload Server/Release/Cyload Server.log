@@ -1,0 +1,19 @@
+﻿  Server.c
+Server.c(146): warning C4020: 'strtok': too many actual parameters
+Server.c(146): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(439): note: see declaration of 'strtok'
+Server.c(147): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+Server.c(477): warning C4047: 'function': 'char *' differs in levels of indirection from 'char'
+Server.c(477): warning C4024: 'recv': different types for formal and actual parameter 2
+Server.c(568): warning C4047: 'function': 'char *' differs in levels of indirection from 'char'
+Server.c(568): warning C4024: 'recv': different types for formal and actual parameter 2
+Server.c(587): warning C4013: 'shell' undefined; assuming extern returning int
+Server.c(531): warning C4101: 'filemessage': unreferenced local variable
+Server.c(612): warning C4028: formal parameter 1 different from declaration
+Server.c(618): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+  Generating code
+  3 of 13 functions (23.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Cyload Server.vcxproj -> C:\Users\Alexander\Documents\Projects\Cyload\Cyload Server\Release\Cyload Server.exe

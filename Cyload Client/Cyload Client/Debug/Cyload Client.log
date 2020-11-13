@@ -1,0 +1,35 @@
+﻿  Client.c
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(61): warning C4007: 'WinMain': must be '__stdcall'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(61): warning C4028: formal parameter 3 different from declaration
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(112): warning C4028: formal parameter 1 different from declaration
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(96): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdlib.h(644): note: see declaration of '_itoa'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(219): warning C4047: 'function': 'char *' differs in levels of indirection from 'char'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(219): warning C4024: 'recv': different types for formal and actual parameter 2
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(315): warning C4133: 'function': incompatible types - from 'char [150]' to 'LPCTSTR'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(331): warning C4013: 'createShell' undefined; assuming extern returning int
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(339): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(341): warning C4013: 'closeShell' undefined; assuming extern returning int
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(295): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(299): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(439): note: see declaration of 'strtok'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(304): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(439): note: see declaration of 'strtok'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(232): warning C4101: 'fileLocation': unreferenced local variable
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(389): warning C4133: 'function': incompatible types - from 'char *' to 'LPWSTR'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(381): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(343): note: see declaration of 'strncpy'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(382): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(271): note: see declaration of 'strncat'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(383): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(271): note: see declaration of 'strncat'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(453): warning C4028: formal parameter 1 different from declaration
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(486): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(398): warning C4716: 'runSingleCommand': must return a value
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(454): warning C4716: 'createShell': must return a value
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(464): warning C4716: 'closeShell': must return a value
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(475): warning C4716: 'runCommand': must return a value
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(507): warning C4715: 'connectThread': not all control paths return a value
+c:\users\alexander\documents\projects\cyload\cyload client\cyload client\client.c(514): warning C4716: 'replacechar': must return a value
+LINK : fatal error LNK1168: cannot open C:\Users\Alexander\Documents\Projects\Cyload\Cyload Client\Debug\Cyload Client.exe for writing
